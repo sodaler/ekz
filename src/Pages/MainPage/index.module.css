@@ -1,31 +1,35 @@
-* {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.cardList {
+.main {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem;
-    flex-wrap: wrap;
     gap: 2rem;
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+}
+.image {
+    width: 55%;
+    background-image: url('/public/podrobnayaInformatsiaOPrieme.webp');
+    background-size: cover;
+    border-radius: 30px;
+}
+.loginFormWrapper {
+    width: 45%;
+    color: rgb(29, 28, 34);
+    font-size: 1.2rem;
+    background-color: rgb(235, 235, 235);
+    border-radius: 30px;
+    padding: 2rem;
+    font-weight: 500;
+
 }
 
-.pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pagination button {
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-.pagination span {
-    margin: 0 10px;
+@media (width < 1000px) {
+    .main {
+        flex-direction: column;
+    }
+    .image {
+        display: none;
+    }
+    .loginFormWrapper {
+        width: 100%;
+    }
 }

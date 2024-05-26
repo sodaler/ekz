@@ -1,53 +1,40 @@
-import React, { useState } from "react";
-import WeatherCard from "../../components/WeatherCard/WeatherCard";
-import styles from "./index.module.css";
-import useFetchData from "../../hooks/useFetchData";
+import React, { useEffect } from "react";
+
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+
+import styles from "./index.module.css"
 
 const MainPage = () => {
-    const dataset = useFetchData();
-    const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 10; // Количество элементов на странице
-
-    if (!dataset) {
-        return <div>Loading...</div>;
-    }
-
-    // Вычисление данных для текущей страницы
-    const indexOfLastItem = currentPage * itemsPerPage;
-    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-    const currentItems = dataset.slice(indexOfFirstItem, indexOfLastItem);
-
-    // Обработчики переключения страниц
-    const nextPage = () => {
-        if (currentPage < Math.ceil(dataset.length / itemsPerPage)) {
-            setCurrentPage(currentPage + 1);
-        }
-    };
-
-    const prevPage = () => {
-        if (currentPage > 1) {
-            setCurrentPage(currentPage - 1);
-        }
-    };
+    useEffect(() => {
+        document.title = "Главная"
+    }, [])
 
     return (
-        <div>
-            <div className={styles.cardList}>
-                {currentItems.map((data, index) => (
-                    <WeatherCard key={index} data={data} />
-                ))}
-            </div>
-            <div className={styles.pagination}>
-                <button onClick={prevPage} disabled={currentPage === 1}>
-                    Предыдущая
-                </button>
-                <span>Страница {currentPage} из {Math.ceil(dataset.length / itemsPerPage)}</span>
-                <button onClick={nextPage} disabled={currentPage === Math.ceil(dataset.length / itemsPerPage)}>
-                    Следующая
-                </button>
-            </div>
-        </div>
-    );
-};
+        <div className={styles.main}>
+            <div className={styles.loginFormWrapper}>
+                <Form>
+                    <Form.Group className="mb-3">
+                        <Form.Label>Телефон</Form.Label>
+                        <Form.Control type="tel" placeholder="Введите телефон" />
+                    </Form.Group>
 
-export default MainPage;
+                    <Form.Group className="mb-3">
+                        <Form.Label>Пароль</Form.Label>
+                        <Form.Control type="password" placeholder="Пароль" />
+                    </Form.Group>
+
+                    <Button variant="primary" type="submit">
+                        Войти
+                    </Button>
+                </Form>
+            </div>
+            <div className={styles.image}>
+            </div>
+
+        </div>
+    )
+
+}
+
+export default MainPage
