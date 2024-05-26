@@ -1,3 +1,0 @@
-﻿  QuickSort.cpp
-C:\Users\sasha\source\repos\QuickSort\QuickSort\QuickSort.cpp(57,34): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  QuickSort.vcxproj -> C:\Users\sasha\source\repos\QuickSort\x64\Debug\QuickSort.exe
