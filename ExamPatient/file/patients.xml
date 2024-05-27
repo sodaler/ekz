@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfPatient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Patient>
+    <Name>Иван</Name>
+    <Age>18</Age>
+    <RoomNumber>7</RoomNumber>
+  </Patient>
+  <Patient>
+    <Name>Олег</Name>
+    <Age>16</Age>
+    <RoomNumber>9</RoomNumber>
+  </Patient>
+  <Patient>
+    <Name>Степан</Name>
+    <Age>24</Age>
+    <RoomNumber>9</RoomNumber>
+  </Patient>
+  <Patient>
+    <Name>Дмитрий</Name>
+    <Age>78</Age>
+    <RoomNumber>145</RoomNumber>
+  </Patient>
+</ArrayOfPatient>

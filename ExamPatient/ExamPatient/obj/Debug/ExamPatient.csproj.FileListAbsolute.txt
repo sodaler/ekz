@@ -1,0 +1,11 @@
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\bin\Debug\ExamPatient.exe.config
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\bin\Debug\ExamPatient.exe
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\bin\Debug\ExamPatient.pdb
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\obj\Debug\ExamPatient.csproj.AssemblyReference.cache
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\obj\Debug\ExamPatient.csproj.SuggestedBindingRedirects.cache
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\obj\Debug\ExamPatient.Form1.resources
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\obj\Debug\ExamPatient.Properties.Resources.resources
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\obj\Debug\ExamPatient.csproj.GenerateResource.cache
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\obj\Debug\ExamPatient.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\obj\Debug\ExamPatient.exe
+C:\Users\Алексей\source\repos\ExamPatient\ExamPatient\obj\Debug\ExamPatient.pdb
