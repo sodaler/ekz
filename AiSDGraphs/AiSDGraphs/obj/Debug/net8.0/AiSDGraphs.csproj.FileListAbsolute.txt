@@ -1,0 +1,14 @@
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\bin\Debug\net8.0\AiSDGraphs.exe
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\bin\Debug\net8.0\AiSDGraphs.deps.json
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\bin\Debug\net8.0\AiSDGraphs.runtimeconfig.json
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\bin\Debug\net8.0\AiSDGraphs.dll
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\bin\Debug\net8.0\AiSDGraphs.pdb
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\obj\Debug\net8.0\AiSDGraphs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\obj\Debug\net8.0\AiSDGraphs.AssemblyInfoInputs.cache
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\obj\Debug\net8.0\AiSDGraphs.AssemblyInfo.cs
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\obj\Debug\net8.0\AiSDGraphs.csproj.CoreCompileInputs.cache
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\obj\Debug\net8.0\AiSDGraphs.dll
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\obj\Debug\net8.0\refint\AiSDGraphs.dll
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\obj\Debug\net8.0\AiSDGraphs.pdb
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\obj\Debug\net8.0\AiSDGraphs.genruntimeconfig.cache
+C:\Users\ANTON\source\repos\AiSDGraphs\AiSDGraphs\obj\Debug\net8.0\ref\AiSDGraphs.dll
