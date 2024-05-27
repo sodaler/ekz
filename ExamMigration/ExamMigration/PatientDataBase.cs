@@ -15,7 +15,7 @@ namespace ExamMigration
         {
             if (optionsBuilder != null)
             {
-                optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Database;Integrated Security=True;MultipleActiveResultSets=True;");
+                optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Database;");
             }
             base.OnConfiguring(optionsBuilder);
         }
