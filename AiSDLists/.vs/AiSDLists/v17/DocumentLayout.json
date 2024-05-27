@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ANTON\\source\\repos\\AiSDLists\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C26F4F77-BAF0-4C6A-9929-5ECE45261B01}|AiSDLists\\AiSDLists.vcxproj|C:\\Users\\ANTON\\source\\repos\\AiSDLists\\AiSDLists\\DoublyLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C26F4F77-BAF0-4C6A-9929-5ECE45261B01}|AiSDLists\\AiSDLists.vcxproj|solutionrelative:AiSDLists\\DoublyLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26F4F77-BAF0-4C6A-9929-5ECE45261B01}|AiSDLists\\AiSDLists.vcxproj|C:\\Users\\ANTON\\source\\repos\\AiSDLists\\AiSDLists\\CircularLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C26F4F77-BAF0-4C6A-9929-5ECE45261B01}|AiSDLists\\AiSDLists.vcxproj|solutionrelative:AiSDLists\\CircularLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CircularLinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\ANTON\\source\\repos\\AiSDLists\\AiSDLists\\CircularLinkedList.cpp",
+              "RelativeDocumentMoniker": "AiSDLists\\CircularLinkedList.cpp",
+              "ToolTip": "C:\\Users\\ANTON\\source\\repos\\AiSDLists\\AiSDLists\\CircularLinkedList.cpp",
+              "RelativeToolTip": "AiSDLists\\CircularLinkedList.cpp",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAHkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-27T15:10:31.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoublyLinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\ANTON\\source\\repos\\AiSDLists\\AiSDLists\\DoublyLinkedList.cpp",
+              "RelativeDocumentMoniker": "AiSDLists\\DoublyLinkedList.cpp",
+              "ToolTip": "C:\\Users\\ANTON\\source\\repos\\AiSDLists\\AiSDLists\\DoublyLinkedList.cpp",
+              "RelativeToolTip": "AiSDLists\\DoublyLinkedList.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-27T15:09:58.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
