@@ -1,0 +1,21 @@
+@import url("index.css");
+
+#directions-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#directions-table th, #directions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#directions-table th {
+    background-color: #333;
+    color: white;
+}
+
+#directions-table td:first-child {
+    width: 20%;
+}

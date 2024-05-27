@@ -1,0 +1,18 @@
+@import url("index.css");
+
+#news-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-card {
+    flex: 1 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.news-card h2 {
+    margin-top: 0;
+}

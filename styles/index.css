@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 250px;
+    align-self: flex-start;
+    margin-left: auto;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"],
+#login-form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
