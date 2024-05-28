@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ExamMobile</string>
+    <string name="buttonAdd">Add</string>
+    <string name="buttonEdit">Edit</string>
+    <string name="buttonDelete">Delete</string>
+    <string name="buttonBack">Back</string>
+    <string name="buttonReport">Make report</string>
+    <string name="editTextAdd_BookName_hint">Name of a book</string>
+    <string name="editTextAdd_BookAuthor_hint">Author</string>
+    <string name="editTextAdd_BookPublisher_hint">Publisher</string>
+    <string name="editTextAdd_BookPublishDate_hint">Publish date</string>
+    <string name="textViewReport">Report</string>
+    <string name="textViewReportCount">Amount of books</string>`
+    <string name="buttonAdd_BookName_hint">Add a book</string>
+    <string name="buttonLocale">Switch locale</string>
+    <string name="buttonLoadFromJSON">Load from JSON</string>
+    <string name="buttonSaveToJSON">Save to JSON</string>
+</resources>

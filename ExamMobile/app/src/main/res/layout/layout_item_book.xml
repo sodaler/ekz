@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15px">
+
+    <TextView
+        android:id="@+id/item_book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/item_book_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Автор"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/item_book_izd_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Издательство"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/item_book_izd_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата издания"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+</LinearLayout>

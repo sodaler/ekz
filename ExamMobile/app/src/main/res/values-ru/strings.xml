@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Экзамен по МР</string>
+    <string name="buttonAdd">Добавить</string>
+    <string name="buttonEdit">Изменить</string>
+    <string name="buttonDelete">Удалить</string>
+    <string name="buttonBack">Вернуться</string>
+    <string name="buttonReport">Сформировать отчет</string>
+    <string name="editTextAdd_BookName_hint">Название книги</string>
+    <string name="editTextAdd_BookAuthor_hint">Автор</string>
+    <string name="editTextAdd_BookPublisher_hint">Издатель</string>
+    <string name="editTextAdd_BookPublishDate_hint">Дата издания</string>
+    <string name="textViewReport">Отчет</string>
+    <string name="textViewReportCount">Количество книг</string>`
+    <string name="buttonAdd_BookName_hint">Добавить книгу</string>
+    <string name="buttonLocale">Сменить язык</string>
+    <string name="buttonLoadFromJSON">Загрузить из JSON</string>
+    <string name="buttonSaveToJSON">Сохранить в JSON</string>
+</resources>
