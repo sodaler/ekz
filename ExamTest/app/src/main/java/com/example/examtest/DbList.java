@@ -17,7 +17,7 @@ public class DbList {
     }
 
 
-    private ArrayList<Patient> list;
+    private final ArrayList<Patient> list;
 
     private DbList() {
         list = new ArrayList<Patient>();
@@ -44,10 +44,13 @@ public class DbList {
     }
 
     public void removePatient(String name) {
-        for (Patient p : list)
-            if (Objects.equals(p.name, name)) {
-                list.remove(p);
-            }
+        synchronized (list) {
+            for (Patient p : list)
+                if (Objects.equals(p.name, name)) {
+                    list.remove(p);
+                    return;
+                }
+        }
     }
 
     Patient getByName(String name) {
@@ -55,6 +58,10 @@ public class DbList {
             if (Objects.equals(p.name, name))
                 return p;
         return null;
+    }
+
+    public void clearAll() {
+        list.clear();
     }
 
     ArrayList<Patient> getByAge(int opt, int age) {
@@ -69,5 +76,9 @@ public class DbList {
             for (Patient p : list)
                 if (p.age > age) lst.add(p);
         return lst;
+    }
+
+    ArrayList<Patient> getAll() {
+        return list;
     }
 }

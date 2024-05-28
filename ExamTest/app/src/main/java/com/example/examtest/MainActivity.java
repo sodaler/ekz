@@ -1,11 +1,26 @@
 package com.example.examtest;
 
+import static android.os.Environment.DIRECTORY_DOWNLOADS;
+import static android.os.Environment.getExternalStoragePublicDirectory;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.View;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.security.Permission;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -93,6 +108,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (v_id == R.id.btn_report) {
             currentFltr = FilterFragment.newInstance(filterDlg_listener);
             currentFltr.show(getSupportFragmentManager(), "f_dlg");
+        }
+        if (v_id == R.id.btn_export) {
+            try {
+                File sdFile = new File(getExternalStoragePublicDirectory(DIRECTORY_DOWNLOADS),
+                        "file.xml");
+                sdFile.createNewFile();
+
+                BufferedWriter bw = new BufferedWriter(new FileWriter(sdFile));
+                bw.write(XmlParser.Serialize());
+                bw.close();
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+        if (v_id == R.id.btn_import) {
+            try {
+                File sdFile = new File(getExternalStoragePublicDirectory(DIRECTORY_DOWNLOADS),
+                        "file.xml");
+                if (!sdFile.exists()) return;
+
+                BufferedReader br = new BufferedReader(new FileReader(sdFile));
+                String str = "";
+                String ln = "";
+                while ((ln = br.readLine()) != null) {
+                    str += ln;
+                }
+                XmlParser.Deserialize(str);
+                br.close();
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+
+            lst_frag.reloadData();
         }
     }
 

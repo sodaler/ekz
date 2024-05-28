@@ -79,4 +79,10 @@ public class ListFragment extends Fragment {
         db.removePatient(name);
         adapter.remove(name);
     }
+
+    public void reloadData() {
+        adapter.clear();
+        for (Patient p : db.getAll())
+            adapter.add(p.name);
+    }
 }
