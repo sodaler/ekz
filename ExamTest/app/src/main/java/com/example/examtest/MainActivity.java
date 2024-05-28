@@ -44,6 +44,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .commit();
 
         db = DbList.getInstance();
+        db.fillList(new DbHelper(this));
+    }
+
+    @Override
+    protected void onDestroy() {
+        db.storeList(new DbHelper(this));
+        super.onDestroy();
     }
 
     ModelFragment current;
