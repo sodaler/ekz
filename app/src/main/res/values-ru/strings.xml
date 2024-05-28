@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мое приложение</string>
+    <string name="generate_report">Сгенерировать отчет</string>
+    <string name="import_json">Импорт JSON</string>
+    <string name="export_json">Экспорт JSON</string>
+</resources>
