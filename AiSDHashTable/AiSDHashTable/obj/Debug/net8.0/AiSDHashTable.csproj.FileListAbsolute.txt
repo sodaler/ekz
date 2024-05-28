@@ -1,0 +1,14 @@
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\bin\Debug\net8.0\AiSDHashTable.exe
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\bin\Debug\net8.0\AiSDHashTable.deps.json
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\bin\Debug\net8.0\AiSDHashTable.runtimeconfig.json
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\bin\Debug\net8.0\AiSDHashTable.dll
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\bin\Debug\net8.0\AiSDHashTable.pdb
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\obj\Debug\net8.0\AiSDHashTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\obj\Debug\net8.0\AiSDHashTable.AssemblyInfoInputs.cache
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\obj\Debug\net8.0\AiSDHashTable.AssemblyInfo.cs
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\obj\Debug\net8.0\AiSDHashTable.csproj.CoreCompileInputs.cache
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\obj\Debug\net8.0\AiSDHashTable.dll
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\obj\Debug\net8.0\refint\AiSDHashTable.dll
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\obj\Debug\net8.0\AiSDHashTable.pdb
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\obj\Debug\net8.0\AiSDHashTable.genruntimeconfig.cache
+C:\Users\ANTON\source\repos\AiSDHashTable\AiSDHashTable\obj\Debug\net8.0\ref\AiSDHashTable.dll

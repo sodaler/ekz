@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ANTON\\source\\repos\\AiSDHashTable\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCAB4DE5-37D8-4969-8907-EDC1FFC2D141}|AiSDHashTable\\AiSDHashTable.csproj|c:\\users\\anton\\source\\repos\\aisdhashtable\\aisdhashtable\\doublehashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCAB4DE5-37D8-4969-8907-EDC1FFC2D141}|AiSDHashTable\\AiSDHashTable.csproj|solutionrelative:aisdhashtable\\doublehashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCAB4DE5-37D8-4969-8907-EDC1FFC2D141}|AiSDHashTable\\AiSDHashTable.csproj|c:\\users\\anton\\source\\repos\\aisdhashtable\\aisdhashtable\\\u0441hainingmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCAB4DE5-37D8-4969-8907-EDC1FFC2D141}|AiSDHashTable\\AiSDHashTable.csproj|solutionrelative:aisdhashtable\\\u0441hainingmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCAB4DE5-37D8-4969-8907-EDC1FFC2D141}|AiSDHashTable\\AiSDHashTable.csproj|c:\\users\\anton\\source\\repos\\aisdhashtable\\aisdhashtable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCAB4DE5-37D8-4969-8907-EDC1FFC2D141}|AiSDHashTable\\AiSDHashTable.csproj|solutionrelative:aisdhashtable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u0421hainingMethod.cs",
+              "DocumentMoniker": "C:\\Users\\ANTON\\source\\repos\\AiSDHashTable\\AiSDHashTable\\\u0421hainingMethod.cs",
+              "RelativeDocumentMoniker": "AiSDHashTable\\\u0421hainingMethod.cs",
+              "ToolTip": "C:\\Users\\ANTON\\source\\repos\\AiSDHashTable\\AiSDHashTable\\\u0421hainingMethod.cs",
+              "RelativeToolTip": "AiSDHashTable\\\u0421hainingMethod.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T17:15:38.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoubleHashing.cs",
+              "DocumentMoniker": "C:\\Users\\ANTON\\source\\repos\\AiSDHashTable\\AiSDHashTable\\DoubleHashing.cs",
+              "RelativeDocumentMoniker": "AiSDHashTable\\DoubleHashing.cs",
+              "ToolTip": "C:\\Users\\ANTON\\source\\repos\\AiSDHashTable\\AiSDHashTable\\DoubleHashing.cs",
+              "RelativeToolTip": "AiSDHashTable\\DoubleHashing.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T17:12:29.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ANTON\\source\\repos\\AiSDHashTable\\AiSDHashTable\\Program.cs",
+              "RelativeDocumentMoniker": "AiSDHashTable\\Program.cs",
+              "ToolTip": "C:\\Users\\ANTON\\source\\repos\\AiSDHashTable\\AiSDHashTable\\Program.cs",
+              "RelativeToolTip": "AiSDHashTable\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:57:29.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
