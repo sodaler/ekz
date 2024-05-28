@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilterFragment"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <Spinner
+        android:id="@+id/spin_option"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:prompt="@string/txt_option"/>
+
+    <EditText
+        android:id="@+id/fld_age"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/txt_age"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btn_enter"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/txt_enter"/>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/txt_cancel"/>
+    </LinearLayout>
+
+</LinearLayout>

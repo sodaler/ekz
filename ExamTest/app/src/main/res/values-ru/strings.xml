@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Тест</string>
+    <string name="txt_btn_add">Добавить</string>
+    <string name="txt_btn_edit">Править</string>
+    <string name="txt_btn_delete">Удалить</string>
+    <string name="txt_btn_report">Отчёт</string>
+    <string name="txt_btn_import">Загрузить</string>
+    <string name="txt_btn_export">Отгрузить</string>
+    <string name="txt_name">Имя</string>
+    <string name="txt_age">Возраст</string>
+    <string name="txt_enter">Принять</string>
+    <string name="txt_cancel">Отмена</string>
+    <string name="txt_option">Опция</string>
+</resources>

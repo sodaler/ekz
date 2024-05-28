@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ExamTest</string>
+    <string name="txt_btn_add">Add</string>
+    <string name="txt_btn_edit">Edit</string>
+    <string name="txt_btn_delete">Delete</string>
+    <string name="txt_btn_report">Report</string>
+    <string name="txt_btn_import">Import</string>
+    <string name="txt_btn_export">Export</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_age">Age</string>
+    <string name="txt_enter">Enter</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_option">Option</string>
+</resources>
