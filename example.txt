@@ -1,1 +1,22 @@
-!!!!
+XML сериализация
+using System.Xml.Serialization;
+        private void LoadPatients()
+        {
+            if (File.Exists(filePath))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(List<Patient>));
+                using (FileStream fileStream = new FileStream(filePath, FileMode.Open))
+                {
+                    patients = (List<Patient>)serializer.Deserialize(fileStream);
+                }
+            }
+        }
+
+        private void SavePatients()
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Patient>));
+            using (FileStream fileStream = new FileStream(filePath, FileMode.Create))
+            {
+                serializer.Serialize(fileStream, patients);
+            }
+        }
